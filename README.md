@@ -1,6 +1,6 @@
 # Bumpiness
 Bumpiness
-Perturb normals to simulate bumps. 
-Compute normals from a height field.
-Sample and blend normal maps. 
-Convert from tangent space to world space.
+Perturb normals to simulate bumps. /n
+Compute normals from a height field./n
+Sample and blend normal maps. /n
+Convert from tangent space to world space./n
