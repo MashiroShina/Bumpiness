@@ -8,3 +8,4 @@ Sample and blend normal maps.
 
 Convert from tangent space to world space.
 
+![image](https://github.com/MashiroShina/Bumpiness/blob/master/Bumpiness.png)
