@@ -106,7 +106,7 @@ void InitializeFragmentNormal(inout Interpolators i) {
 	
 	float3 mainNormal =UnpackScaleNormal(tex2D(_NormalMap,i.uv.xy),_BumpScale);
 	float3 detailNormal=UnpackScaleNormal(tex2D(_DetailNormalMap,i.uv),_DetailBumpScale);
-	i.normal = (mainNormal + detailNormal) * 0.5;
+	i.normal = float3(mainNormal.xy / mainNormal.z + detailNormal.xy / detailNormal.z, 1);
 	i.normal = i.normal.xzy;
 	i.normal=normalize(i.normal);
 }
