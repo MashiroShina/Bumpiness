@@ -14,14 +14,19 @@
 		[NoScaleOffset] _DetailNormalMap ("Detail Normals", 2D) = "bump" {}
 		_DetailBumpScale ("Detail Bump Scale", Float) = 1
 	}
+	CGINCLUDE
 
+	#define BINORMAL_PER_FRAGMENT
+
+	ENDCG
+	
 	SubShader {
 
 		Pass {
 			Tags {
 				"LightMode" = "ForwardBase"
 			}
-
+			 
 			CGPROGRAM
 
 			#pragma target 3.0
@@ -42,10 +47,9 @@
 			Tags {
 				"LightMode" = "ForwardAdd"
 			}
-
 			Blend One One
 			ZWrite Off
-
+			
 			CGPROGRAM
 
 			#pragma target 3.0

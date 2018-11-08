@@ -31,7 +31,7 @@ Material:
         m_Scale: {x: 1, y: 1}
         m_Offset: {x: 0, y: 0}
     - _DetailNormalMap:
-        m_Texture: {fileID: 2800000, guid: 8334c1e5375b4764aab96e5db0400d17, type: 3}
+        m_Texture: {fileID: 2800000, guid: 5e176e7b04a7948129e9f864749e6253, type: 3}
         m_Scale: {x: 1, y: 1}
         m_Offset: {x: 0, y: 0}
     - _DetailTex:
@@ -67,9 +67,9 @@ Material:
         m_Scale: {x: 1, y: 1}
         m_Offset: {x: 0, y: 0}
     m_Floats:
-    - _BumpScale: 1
+    - _BumpScale: 2
     - _Cutoff: 0.5
-    - _DetailBumpScale: 1
+    - _DetailBumpScale: 3.44
     - _DetailNormalMapScale: 1
     - _DstBlend: 0
     - _GlossMapScale: 1
@@ -90,4 +90,4 @@ Material:
     - _EmissionColor: {r: 0, g: 0, b: 0, a: 1}
     - _Specular: {r: 0.5, g: 0.5, b: 0.5, a: 1}
     - _SpecularTint: {r: 0.5, g: 0.5, b: 0.5, a: 1}
-    - _Tint: {r: 1, g: 1, b: 1, a: 1}
+    - _Tint: {r: 0.8867924, g: 0.8867924, b: 0.8867924, a: 1}
